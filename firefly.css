@@ -602,7 +602,7 @@ fieldset[disabled] .sheet-skills table td .sheet-dropdown button[type=roll].acti
 }
 .sheet-distinctions .sheet-distinction-skills input[type=text] {
   font-family: Jura, Calibri, Candara, Segoe, "Segoe UI", Optima, "Liberation Sans", Arial, sans-serif;
-  width: 50px;
+  width: 73px;
   margin-left: 2px;
   font-weight: bolder;
   line-height: 1.5;
@@ -640,6 +640,11 @@ fieldset[disabled] .sheet-skills table td .sheet-dropdown button[type=roll].acti
 }
 .sheet-sigassets .sheet-sigasset-head button[type=roll]:before {
   content: "t";
+}
+.sheet-sigassets textarea {
+  height: auto;
+  width: 90%;
+  margin: 0;
 }
 /* Create pseudo-dropdowns CSS */
 .sheet-dropdown .sheet-drop-attr_Mental {
